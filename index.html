@@ -1,8 +1,8 @@
-  <%  
+<%  
   IP = Request.ServerVariables("HTTP_X_FORWARDED_FOR")  
   If IP = ""  Then  
      IP = Request.ServerVariables("remote_host")
-  %> 
+%> 
 <!DOCTYPE html>
 <html>
 <head>
